@@ -18,7 +18,7 @@ const htmlMinTransform = require('./src/transforms/html-min.js');
 // Create a helpful production flag
 const isProduction = process.env.NODE_ENV === 'production';
 
-const categoryDataFile = 'categoryData.json';
+// const categoryDataFile = 'categoryData.json';
 
 module.exports = eleventyConfig => {
 
