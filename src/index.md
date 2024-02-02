@@ -1,6 +1,6 @@
 ---
-layout: base
 title: Home
+layout: index
 ---
 
 Bresaola burgdoggen spare ribs filet mignon jowl ham drumstick meatball salami. Drumstick meatball ribeye buffalo pork, ground round strip steak corned beef doner jerky chislic t-bone beef tail capicola. Landjaeger flank shoulder picanha bresaola boudin burgdoggen leberkas corned beef shank t-bone tri-tip chuck meatball. Rump pancetta kielbasa pork chop bresaola chislic t-bone spare ribs drumstick boudin.
