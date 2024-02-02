@@ -117,21 +117,12 @@ module.exports = eleventyConfig => {
 		return Math.trunc(num);
 	});
 
-	// https://www.lenesaile.com/en/blog/organizing-the-eleventy-config-file/
-	// Copy the favicon files to the root folder
 	eleventyConfig.addPassthroughCopy({ 'src/favicon/*': '/' });
-	// copy the rest of the files
 	[
-		// Data files
 		"src/_data/*",
-		// Template files
-		"src/assets/css/",
-		"src/assets/js/",
-		"src/assets/sass/",
-		"src/assets/webfonts/",
-		"src/files/*",		
-		"src/images/*",		
-		"src/images/common/*"
+		"scr/assets/*",
+		"src/images/*",
+		"src/docs/*",
 	].forEach((path) => {
 		eleventyConfig.addPassthroughCopy(path);
 	});
@@ -150,5 +141,4 @@ module.exports = eleventyConfig => {
 			data: "_data"
 		}
 	}
-
 };
