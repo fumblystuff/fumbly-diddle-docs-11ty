@@ -129,8 +129,7 @@ module.exports = eleventyConfig => {
 		"src/assets/js/",
 		"src/assets/sass/",
 		"src/assets/webfonts/",
-		"src/files/*",
-		// Images folders
+		"src/files/*",		
 		"src/images/*",		
 		"src/images/common/*"
 	].forEach((path) => {
