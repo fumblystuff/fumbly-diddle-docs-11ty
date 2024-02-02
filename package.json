@@ -1,0 +1,47 @@
+{
+  "name": "fumblydiddledocs",
+  "version": "0.1.47",
+  "description": "",
+  "author": "John M. Wargo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnwargo/fumbly-diddle-docs"
+  },
+  "bugs": {
+    "url": "https://github.com/johnwargo/fumbly-diddle-docs/issues"
+  },
+  "scripts": {
+    "clean": "rimraf _site",
+    "build:eleventy": "eleventy",
+    "watch:eleventy": "eleventy --serve --quiet",
+    "start": "npm-run-all --sequential clean watch:eleventy",
+    "build": "npm-run-all --sequential clean build:eleventy"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-img": "^3.1.1",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "@google-analytics/data": "^4.3.0",
+    "eleventy-generate-category-pages": "^0.1.2",
+    "eleventy-plugin-date": "^1.0.0",
+    "eleventy-plugin-file-list": "^0.0.5",
+    "eleventy-plugin-github-repos": "^0.0.2",
+    "eleventy-plugin-post-stats": "^0.2.11",
+    "eleventy-plugin-youtube-embed": "^1.9.1",
+    "execa": "^8.0.1",
+    "generate-build-info": "^0.0.3",
+    "html-minifier": "^4.0.0",
+    "markdown-it": "^14.0.0",
+    "markdown-it-attrs": "^4.1.6",
+    "npm-run-all": "^4.1.5",
+    "outdent": "^0.8.0",
+    "rimraf": "^5.0.5",
+    "rss-parser": "^3.13.0"
+  },
+  "keywords": [
+    "eleventy",
+    "plugin"
+  ]
+}
