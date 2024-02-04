@@ -1,24 +1,29 @@
 ---
-siteTitle: Fumbly Diddle Docs
+siteTitle: Fulbly Diddle Docs
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{ siteTitle }}</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
-  </head>
-  <body>
-    <main>
-        <h1>{{ siteTitle }}</h1>  
-        <p>Base content</p>
-        {{ content }}
-        <p>Base content</p>
-    </main>
-	<script src="index.js"></script>
-  </body>
+<!DOCTYPE HTML>
+<!--
+	Editorial by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
+<html>
+
+<head>
+  <title>{{ siteTitle }}</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta name="generator" content="{{ eleventyinfo.generatorStr}}" />
+  <meta name="author" content="Fumbly Diddle Software">
+  {% if description %}<meta name="description" content="{{ description }}" />{% endif %}
+  {% if categories.length > 0 %}<meta name="keywords" content="{% GetKeywords categories %}">{% endif %}
+  {% comment %} <link rel="manifest" href="/manifest.json"> {% endcomment %}
+  <link rel="stylesheet" href="{{ "/" | htmlBaseUrl }}assets/css/main.css" />  
+</head>
+
+<body class="is-preload">
+  {{ content }}  
+</body>
+
 </html>

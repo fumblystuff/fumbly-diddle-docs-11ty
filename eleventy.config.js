@@ -117,10 +117,13 @@ module.exports = eleventyConfig => {
 
 	eleventyConfig.addPassthroughCopy({ 'src/favicon/*': '/' });
 	[
-		"src/_data/*",
-		"scr/assets/*",
-		"src/images/*",
-		"src/docs/*",
+		"src/_data/",
+		"src/assets/css/",
+		"src/assets/js/",
+		"src/assets/sass/",
+		"src/assets/webfonts/",
+		"src/images/",
+		"src/docs/",
 	].forEach((path) => {
 		eleventyConfig.addPassthroughCopy(path);
 	});

@@ -2,6 +2,8 @@
 .cache/
 _site/
 node_modules/
+px-editorial-html/
 
 # Files
 .DS_Store
+px-editorial-html.zip
