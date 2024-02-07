@@ -1,6 +1,6 @@
 #!/usr/bin/env zx
 
-const algoliaPrefix = 'JMW_';
+const algoliaPrefix = 'FDD_';
 
 // With ZX the first three commands are the node executable, the zx executable, and the script name
 // [

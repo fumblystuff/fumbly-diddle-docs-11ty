@@ -1,0 +1,9 @@
+{
+  "editorCmd": "code",
+  "openAfterCreate": true,
+  "paragraphCount": 4,
+  "postsFolder": "src/docs",
+  "promptTargetFolder": true,
+  "templateFile": "11ty-np.md",
+  "useYear": false
+}

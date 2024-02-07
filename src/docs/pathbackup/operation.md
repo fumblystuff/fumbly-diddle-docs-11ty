@@ -1,12 +1,10 @@
 ---
-title: Path Backup Documentation
-description: Documentation for the Path Backup and Restore application.
-date: 2024-02-05
+title: Operation
+description: 
+date: 2024-02-07
 categories:
   - Windows
 ---
-
-Bacon ipsum dolor amet ribeye turkey t-bone sausage shank meatball boudin meatloaf jerky ham hock. Brisket ham biltong venison, chislic shoulder andouille frankfurter fatback. Strip steak burgdoggen cow turducken salami fatback filet mignon beef pork belly frankfurter bacon kevin pork chop corned beef. Meatloaf picanha leberkas, tenderloin pork loin pig flank ham chislic turducken tri-tip ribeye short loin. Short ribs leberkas rump meatloaf pig burgdoggen, tri-tip pastrami bresaola ball tip spare ribs pork chop swine sausage. Short ribs buffalo leberkas biltong tri-tip chicken ground round tenderloin chislic spare ribs shankle.
 
 Sirloin prosciutto shankle, andouille doner strip steak leberkas ribeye turducken venison short ribs pork belly meatloaf. Ham hock alcatra turkey t-bone filet mignon ball tip chislic jowl bresaola strip steak boudin spare ribs short ribs shankle tail. Leberkas spare ribs bacon cupim buffalo, alcatra ball tip ham. Burgdoggen pancetta alcatra kevin ribeye ball tip. Spare ribs flank chicken ham hock tongue. Doner turducken short loin buffalo fatback pig sirloin boudin. Tail sirloin shankle pastrami.
 

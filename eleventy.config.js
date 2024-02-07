@@ -1,4 +1,5 @@
 const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 // const generateCategoryPages = require('eleventy-generate-category-pages');
 // https://github.com/11ty/eleventy/issues/2301
 const markdownIt = require('markdown-it');
@@ -23,6 +24,7 @@ const isProduction = process.env.NODE_ENV === 'production';
 module.exports = eleventyConfig => {
 
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+	eleventyConfig.addPlugin(eleventyNavigationPlugin);
 	eleventyConfig.addPlugin(embedYouTube);
 	eleventyConfig.addPlugin(pluginDate);
 	eleventyConfig.addPlugin(pluginRss);
