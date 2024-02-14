@@ -8,8 +8,8 @@ Static documentation site for Fumbly Diddle Software @ https://docs.fumblydiddle
 
 - [ ] Put docs github link in title bar 
 - [ ] Implement search
-- [ ] 
-- [ ] 
+- [ ] Favicon
+- [ ] Manifest
 - [ ] 
 - [ ] 
 - [ ] 
