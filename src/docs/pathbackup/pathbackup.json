@@ -1,10 +1,10 @@
 {
 	"layout": "docs",
-	"tags": [
-		"docs"
-	],
-	"categories": [
-		"PathBackup",
-		"Windows"
-	]
+		"tags": [
+			"docs"
+		],
+			"categories": [
+				"PathBackup",
+				"Windows"
+			]
 }

@@ -2,6 +2,7 @@
 title: Operation
 description: 
 date: 2024-02-07
+permalink: "pathbackup/{{ title | slugify }}/index.html"
 categories:
   - Windows
 ---
