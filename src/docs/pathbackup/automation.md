@@ -3,6 +3,10 @@ title: Automation
 description: 
 date: 2024-02-07
 permalink: "pathbackup/{{ title | slugify }}/index.html"
+eleventyNavigation:
+  key: Automation
+  parent: Path Backup & Restore
+  order: 3
 categories:
   - Windows
 ---

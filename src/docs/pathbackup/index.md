@@ -3,6 +3,9 @@ title: Path Backup Documentation
 description: Documentation for the Path Backup and Restore application.
 date: 2024-02-05
 permalink: "pathbackup/index.html"
+eleventyNavigation:
+  key: Path Backup & Restore
+  order: 1
 categories:
   - Windows
 ---

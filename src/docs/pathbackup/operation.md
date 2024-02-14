@@ -3,6 +3,10 @@ title: Operation
 description: 
 date: 2024-02-07
 permalink: "pathbackup/{{ title | slugify }}/index.html"
+eleventyNavigation:
+  key: Operation
+  parent: Path Backup & Restore
+  order: 2
 categories:
   - Windows
 ---
